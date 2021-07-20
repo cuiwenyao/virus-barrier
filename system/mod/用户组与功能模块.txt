@@ -1,0 +1,35 @@
+用户组创建规范：
+1、在group.conf.php中配置用户组ID和用户组标签
+2、在mod文件夹中创建以用户组标签命名的文件夹
+3、每个用户组需要一个.link(用户组功能声明)和start.list(用户组初始list)
+4、模块的func在func文件夹下创建即可
+5、模块的pro在pro创建对应模块的文件夹存放
+此外，每一个用户组可以有其他多个link和多个list.
+6、如果一个用户组是对应某个数据表，需要在user.func.php中添加登录判断
+
+link:
+
+name:总控
+ID  :100
+tag :main
+list:start patient doctor nurse cleaner room medicine testing cleaning purchase
+
+name:医生
+ID  :1
+tag :doctor
+list:
+
+name:护士
+ID  :2
+tag :nurse
+list:
+
+name:清洁人员
+ID  :3
+tag :cleaner
+list:
+
+name:药物购买人员
+ID  :4
+tag :purchase
+list:
