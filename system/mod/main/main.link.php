@@ -20,9 +20,20 @@ function mainLinkOut($utype,$listname)
                         array( "nurse" , "护士列表" ) ,
                         array( "cleaner" , "清洁人员列表" ) ,
                         array( "room" , "房间列表" ) ,
+                        array( "medicine" , "药物列表" ) ,
                         0
                 ) ,
-               
+                array(
+                        array( "testing" , "核酸检测记录" ) ,
+                        array( "cleaning" , "清洁消毒记录" ) ,
+                        array( "purchase" , "药物购买记录" ) ,
+                        0
+                ) ,
+                array(
+                        array( "clearsystem" , "清理系统缓存" ) ,
+                        array( "backupsystem" , "数据库备份与恢复" ) ,
+                        0
+                ) ,
                 0
         ) ;
         if($utype!=$USER_TYPE) return false;  //权限控制

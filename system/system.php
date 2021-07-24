@@ -3,7 +3,7 @@
   require_once __DIR__."/mod.php";
   $utype = GetNowUserType();          // 测试,当前用户组为Main
   if($utype==false) header("location:../index.php");
-  $linkname = isset($_GET['link'])?$_GET['link']:$GLOBALS[$utype];      // 当前选中的link mod
+  $linkname = isset($_GET['link'])?$_GET['link']:$GLOBALS[$utype];     // 当前选中的link mod
   $listname = isset($_GET['list'])?$_GET['list']:"start";               // 当前选中的list mod
 ?>
 <!DOCTYPE html>
