@@ -14,7 +14,7 @@ function startListOut($utype)
         echo 
         '
                 <h1 class="page-header">'.$ListTitle.'</h1>
-                <img align="center" src="../../../upload/bg'.rand(1,BG_NUM).'.jpg" alt="..." class="img-rounded">
+                <img align="center" src="../../../upload/bg'.rand(1,BG_NUM).'.jpg" alt="..." class="img-rounded img-responsive">
 
         ';
         return true;

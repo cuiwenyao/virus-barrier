@@ -20,7 +20,7 @@ function startListOut($utype)
           <div class="alert alert-success" role="alert">当前护士数量：<span class="label label-info">'.NowNurse().'</span> 当前医生数量：<span class="label label-info">'.NowDoctor().'</span> 当前清洁人员数量：<span class="label label-info">'.NowCleaner().'</span></div>
           <div class="alert alert-success" role="alert">当前空余病房数量：<span class="label label-info">'.NowRoom().'</span> 当前可用药物数量：<span class="label label-info">'.NowMedicine().'</span></div>
 
-       <img align="center" src="../../../upload/bg'.rand(1,BG_NUM).'.jpg" alt="..." class="img-rounded">
+       <img align="center" src="../../../upload/bg'.rand(1,BG_NUM).'.jpg" alt="..." class="img-rounded img-responsive">
 
 
 	';
